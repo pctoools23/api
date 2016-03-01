@@ -1,59 +1,48 @@
-# Telegram Support Bot
-This Bot is written in Python with the help from the pyTelegramBotAPI.
+# پیام رسان تلگرام
 
-Let's start by installing everything you need.
 
 # Installation
 
-First of all, you need to install Python2 & the Python package manager
+اول کد زیر رو وارد کنید
 
 ```
 sudo apt-get install python2 python2-pip
 ```
 
-After that you need to install the pyTelegramBotAPI.
+کد زیر رو هم همینطور 
 
 ```
 sudo pip2 install pyTelegramBotAPI
 ```
-Finally clone the repo
 
+این فایل رو دریافت کنید با دستور زیر 
 ```
-git clone https://github.com/appendhc/lsd_support_bot.clone
+git clone https://github.com/appendhc/lsd_support_bot.git
 ```
 
 # Getting started
 
-Create 2 new files named "loggingids.json" and "user.txt"
-Open the file "bot.py" and replace following IDs with your options:
+
+در لاین 20 توکن خود رو وارد کنید 
 
 ```
 API_TOKEN = 'YOUR TOKEN'
 ```
-This should be your Token received from Botfather.
+و در لاین 43 و 65 
+65 : http://s3.img7.ir/q8dtL.jpg
+43 : http://s3.img7.ir/pdRHu.jpg
+ایدی گروه خود رو در این قسمت ها ورد کنید 
 
-Also don't forget to replace the Group ID
-
-
+و در فایل 
+admin.txt
+ایدی عددی خود را وارد کنید 
+http://s3.img7.ir/z4lfD.jpg
 
 # Running the Bot
 
-You can one-time run the Bot with the command
+و در اخر ربات رو با فرمان زیر ران کنید 
 ```
 python bot.py
 ```
 
 # Special thanks to
-[@aRandomStranger](https://telegram.me/aRandomStranger) - For soruce LoggingBot
-
-[@Edurolp](https://telegram.me/edurolp) - For helping with Debugging
-
-[@Gunny14](https://telegram.me/gunny14) - For helping users & being staff
-
-[@Sanguchi](https://telegram.me/Sanguchi) - For helping with Debugging, being staff & helping users
-
-[@JackRendor](https://telegram.me/JackRendor) - For helping users & being staff
-
-[@eternnoir](https://github.com/eternnoir/pyTelegramBotAPI) - for creating this loveful API!
-
-
