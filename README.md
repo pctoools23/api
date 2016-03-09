@@ -46,3 +46,6 @@ python bot.py
 ```
 
 # Special thanks to
+
+
+edit README.mb by negative
