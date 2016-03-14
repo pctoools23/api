@@ -40,7 +40,7 @@ def on_user_joins(m):
 			username = m.new_chat_participant.username
 			groupname = m.chat.title
 			groupid = m.chat.id
-			bot.send_message('-84875656', "# DEBUG # " + "Bot got invited to the group " + str(groupname) + "(" + str(groupid) + ")", parse_mode="HTML")
+			bot.send_message('-64575349', "# DEBUG # " + "Bot got invited to the group " + str(groupname) + "(" + str(groupid) + ")", parse_mode="HTML")
 
 
 
@@ -62,7 +62,7 @@ def pm(m):
     str = m.text
     txt = str.replace("/pm", "")
     bot.send_message(idA, "<b>Thank you very much! Details to your Question:\n Quetsion:</b> {} \n<b>Chat-Id :</b> {} \n<b>We will answer you as soon as possible</b>".format(txt,idA), parse_mode="HTML")
-    bot.send_message('-84875656', "<b>#NEW MSG\n Chat-Id:</b> {} \n<b>Msg :</b> {}".format(idA,txt), parse_mode="HTML")
+    bot.send_message('-64575349', "<b>#NEW MSG\n Chat-Id:</b> {} \n<b>Msg :</b> {}".format(idA,txt), parse_mode="HTML")
     bot.send_message(idA, "<b>This is a confirmation that we received your Question</b>", parse_mode="HTML")
 
 
@@ -83,7 +83,7 @@ def j(m):
      
      
 @bot.message_handler(commands=['bb'])
-def answer(m):
+def j(m):
         datafile = [line.rstrip('\n') for line in open('admins.txt','rt')]
         my_id = m.from_user.id
         idA, cid = m.chat.id, m.chat.id
@@ -100,7 +100,7 @@ def answer(m):
         bot.send_message(cid, "<b>User blocked</b>", parse_mode="HTML")
         
 @bot.message_handler(commands=['ub'])
-def answer(m):
+def j(m):
         datafile = [line.rstrip('\n') for line in open('admins.txt','rt')]
         my_id = m.from_user.id
         idA, cid = m.chat.id, m.chat.id
@@ -116,7 +116,7 @@ def answer(m):
         bot.send_message(cid, "<b>User unblocked</b>", parse_mode="HTML")
         
 @bot.message_handler(commands=['newadmin'])
-def answer(m):
+def j(m):
         datafile = [line.rstrip('\n') for line in open('admins.txt','rt')]
         my_id = m.from_user.id
         idA, cid = m.chat.id, m.chat.id
