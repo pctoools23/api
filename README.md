@@ -17,7 +17,7 @@ sudo pip2 install pyTelegramBotAPI
 
 این فایل رو دریافت کنید با دستور زیر 
 ```
-git clone https://github.com/appendhc/lsd_support_bot.git
+git clone https://github.com/negative23/support.git
 ```
 
 # Getting started
