@@ -56,7 +56,7 @@ def help(m):
 	bot.send_message(cid, "send `/pm [msg] `", parse_mode="Markdown")
 	
 @bot.message_handler(commands=['pm'])
-def ask(m):
+def pm(m):
     tmt = m.from_user.id
     idA, cid = m.chat.id, m.chat.id
     str = m.text
@@ -67,7 +67,7 @@ def ask(m):
 
 
 @bot.message_handler(commands=['j'])
-def answer(m):
+def j(m):
         datafile = [line.rstrip('\n') for line in open('admins.txt','rt')]
         tmt = m.from_user.id
         idA, cid = m.chat.id, m.chat.id
