@@ -17,7 +17,7 @@ import json
 import time
 from pprint import pprint
 
-API_TOKEN = 'token'
+API_TOKEN = '196293743:AAG0VOTbjfBPPs8R_Dn-kveS_975Ef5b6CA'
 bot = telebot.TeleBot(API_TOKEN)
 
 with open('loggingids.json') as f:
